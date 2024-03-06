@@ -144,28 +144,202 @@
 //     alert("car is smaller than cat");
 //     }
 //Q6:
-var num1=+prompt("Enter the marks");
-var num2=+prompt("Enter the marks");
-var num3=+prompt("Enter the marks");
-var total=num1+num2+num3;
-var percentage;
-percentage=(total/300)*100;
-if(percentage>=90){
+// var num1=+prompt("Enter the marks");
+// var num2=+prompt("Enter the marks");
+// var num3=+prompt("Enter the marks");
+// var total=num1+num2+num3;
+// var percentage;
+// percentage=(total/300)*100;
+// if(percentage>=90){
     
-    console.log("A-one ");
-    console.log("Excellent");
-    console.log(percentage);
+//     console.log("Grade: A-one ");
+//     console.log("Remarks: Excellent");
+//     console.log("Obtained marks: "+total)
+//     console.log("total marks: 300");
+//     console.log("Percentage:"+percentage+"%");
 
-}else if(percentage>=70){
-    console.log("A");
-    console.log("Good");
-    console.log(percentage);
-}else if(percentage>=60){
-    console.log("B");
-    console.log("You need to improve");
-    console.log(percentage);
+// }else if(percentage>=70){
+//     console.log("Grade: A");
+//     console.log("Remarks: Good");
+//     console.log("Obtained marks: "+total)
+//     console.log("total marks: 300");
+//     console.log("Percentage"+percentage+"%");
+// }else if(percentage>=60){
+//     console.log("Grade: B");
+//     console.log("Remarks: You need to improve");
+//     console.log("Obtained marks: "+total)
+//     console.log("total marks: 300");
+//     console.log("Percentage"+percentage+"%");
 
-}else{
-    console.log("fail");
-    console.log("sorry")
-}
+// }else{
+//     console.log("fail");
+//     console.log("sorry")
+// }
+//Q7:
+// var num1=+prompt("Guess Game","Guess Number");
+
+// if(num1==10){
+//     console.log("“Bingo! Correct answer");
+
+
+// }else if(num1==9) {
+
+//     console.log("Close enough to the correct answer");
+// }else{
+//     console.log("Incorrect Number");
+// }
+//Q8:
+// var number =+prompt("Enter the number");
+// if( number % 3 == 0) {
+//     console.log(number+"is divisible by three:");
+// }else{
+//     console.log("this number not divisible by 3:")
+// }
+//Q9:
+// var num1=+prompt("Enter the number");
+// if(num1%2==0){
+//     console.log("Even Number:");
+    
+// }else{
+//     console.log("Odd Number:")
+// }
+//Q10:
+// var num1=+prompt("Enter the Temperature");
+// if(num1>40){
+//     console.log("It is too hot outside.");
+// }else if(num1>30){
+//     console.log("The Weather today is Normal.");
+// }else if(num1>20){
+//     console.log("Today's Weather is cool.");
+// }else if(num1>10){
+//     console.log("OMG! Today's Weather is so Cool. ");
+// }else{
+//     console.log("Snow Falling ");
+// }
+//Q11:
+// var num1=+prompt("First number.","Enter the Number");
+// var num2=+prompt("Second number.","Enter the Number ");
+// var operation=prompt("Select Operator"," * , / , + , - , % " );
+// var total;
+// if(operation==="*"){
+//     total=num1*num2;
+//     console.log("Total= "+total);
+// }else if(operation==="/"){
+//     total=num1/num2;
+//     console.log("Total= "+total);
+// }else if(operation==="+"){
+//     total=num1+num2;
+//     console.log("Total= "+total);
+// }else if(operation==="-"){
+//     total=num1-num2;
+//     console.log("Total= "+total);
+// }else if(operation==="%"){
+//     total=num1%num2;
+//     console.log("Total= "+total);
+// }else{
+//     console.log("Incorrect Operator");
+// 
+//------------chapter-113
+//Q1
+// const letter = 'A';
+
+// if (letter.toUpperCase() === letter) {
+//   // 👇️ this runs
+//   console.log('✅ letter is uppercase');
+// } else {
+//   console.log('⛔️ letter is lowercase');
+// }
+ 
+// // Java implementation of the above approach
+ 
+// class GFG
+//  {
+    
+ 
+//     static void check(char ch) 
+//     { 
+     
+//         if (ch >= 'A' && ch <= 'Z') 
+//             System.out.println("\n" + ch + 
+//                     " is an UpperCase character"); 
+     
+//         else if (ch >= 'a' && ch <= 'z') 
+//             System.out.println("\n" + ch + 
+//                     " is an LowerCase character" ); 
+     
+//         else
+//             System.out.println("\n" + ch + 
+//                     " is not an alphabetic character" ); 
+//     } 
+ 
+//     // Driver Code 
+//     public static void main(String []args)
+//     { 
+//         char ch; 
+     
+//         // Get the character 
+//         ch = 'A'; 
+     
+//         // Check the character 
+//         check(ch); 
+     
+//         // Get the character 
+//         ch = 'a'; 
+     
+//         // Check the character 
+//         check(ch); 
+     
+//         // Get the character 
+//         ch = '0'; 
+     
+//         // Check the character 
+//         check(ch); 
+     
+//     } 
+// }
+//Q2:
+
+//Q3:
+
+// var number=+prompt("enter the number");
+
+// if (number > 0) {
+//     console.log("The number is positive");
+// }
+
+// else if (number == 0) {
+//   console.log("The number is zero");
+// }
+
+// else {
+//      console.log("The number is negative");
+// }
+//Q4:
+// var alphabets=prompt("Enter the vowels","a , e , i , o , u");
+// if(alphabets === "a"){
+//     console.log("The alphabets is vowels");
+// }else if(alphabets === "e"){
+//     console.log("The alphabets is vowels");
+// }else if(alphabets === "i"){
+//     console.log("The alphabets is vowels");
+
+// }else if(alphabets === "i"){
+//     console.log("The alphabets is vowels");
+// }else if(alphabets === "o"){
+//     console.log("The alphabets is vowels");
+// }else if(alphabets === "u"){
+//     console.log("The alphabets is vowels");
+// }else{
+//     console.log("The Alphabets is notvowels");
+// }
+//Q5:
+//Q6:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }else{
+// greeting = "Good evening";
+// }
+//Q7
+
