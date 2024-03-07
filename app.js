@@ -239,7 +239,7 @@
 // }else{
 //     console.log("Incorrect Operator");
 // 
-//------------chapter-113
+//------------chapter-13--------------
 //Q1
 // const letter = 'A';
 
@@ -298,6 +298,14 @@
 //     } 
 // }
 //Q2:
+// var firstInteger=+prompt("Enter the first integer");
+// var secondInteger=+prompt("Enter the second integer");
+// if(firstInteger>secondInteger){
+//     console.log("first iteger is larger than second integer ");
+
+// }else if(secondInteger>firstInteger){
+//     console.log("second integer is larger than first integer");
+// }
 
 //Q3:
 
@@ -333,13 +341,62 @@
 //     console.log("The Alphabets is notvowels");
 // }
 //Q5:
+// var password="welcome";
+// var getPassword=prompt("Enter the password");
+// if(getPassword=== ""){
+//     console.log("please enter the password");
+
+// }else if(getPassword===password){
+//     console.log("The password is correct");
+
+// }
+// else{
+//     console.log("The password is incorrect");
+// }
 //Q6:
-// var greeting;
+// var greeting =+prompt("Enter the time in hour");
 // var hour = 13;
-// if (hour < 18) {
-// greeting = "Good day";
+// if (greeting < 18) {
+
+// console.log("Good day");
 // }else{
-// greeting = "Good evening";
+// console.log("Good evening");
 // }
 //Q7
+// var time=+prompt("Enter your time in 24hour clock");
+// if(time===1300){
+//     console.log("The time is 1PM  ");
+// }else if(time===1400){
+//     console.log("The time is 2PM  ");
 
+// }else if(time===1500){
+//     console.log("The time is 3PM  ");
+
+// }else if(time===1600){
+//     console.log("The time is 4PM  ");
+
+// }else if(time===1700){
+//     console.log("The time is 5PM  ");
+
+// }else if(time===1800){
+//     console.log("The time is 6PM  ");
+
+// }else if(time===1900){
+//     console.log("The time is 7PM  ");
+
+// }else if(time===2000){
+//     console.log("The time is 8PM  ");
+
+// }else if(time===2100){
+//     console.log("The time is 9PM  ");
+
+// }else if(time===2200){
+//     console.log("The time is 10PM  ");
+
+// }else if(time===2300){
+//     console.log("The time is 11PM  ");
+
+// }else if(time===2400){
+//     console.log("The time is 12PM  ");
+
+// }
